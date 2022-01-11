@@ -1,0 +1,18 @@
+{
+    "miniprogramRoot": "./dist",
+    "projectname": "checkin-exchange-fe",
+    "description": "签到兑换",
+    "appid": "tted1a9ba77223f67501",
+    "setting": {
+        "urlCheck": true,
+        "es6": false,
+        "postcss": false,
+        "minified": false
+    },
+    "compileType": "miniprogram",
+    "condition": {
+        "miniprogram": {
+            "current": -1
+        }
+    }
+}
