@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/junchen.yang/Documents/mini/checkin-exchange-fe/node_modules/.bin/acorn'
+  Error: EACCES: permission denied, unlink '/Users/junchen.yang/Documents/mini/checkin-exchange-fe/node_modules/.bin/atob'
 
 npm manifest: 
   {

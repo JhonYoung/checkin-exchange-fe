@@ -29,7 +29,8 @@ export default class Index extends Component {
 
   render () {
     const {showModal} = this.state;
-    console.log('showModal= ============>', this.state)
+    console.log('showModal=========>', this.state)
+
     return (
       <View className='home'>
         <Image src={home1Img} className='home-img-1'></Image>
