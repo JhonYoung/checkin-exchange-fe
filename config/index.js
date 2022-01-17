@@ -61,7 +61,8 @@ const config = {
     }
   },
   alias: {
-    '@/assets': '/src/assets'
+    '@/assets': '/src/assets',
+    '@/components': '/src/components',
   }
 }
 

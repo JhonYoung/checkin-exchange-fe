@@ -1,8 +1,9 @@
 export default {
   pages: [
-    'pages/index/index',
+    'pages/home/index',
     'pages/exchange/index',
-    'pages/mine/index'
+    'pages/mine/index',
+    'pages/activity/index',
   ],
   window: {
     backgroundTextStyle: 'light',
@@ -13,7 +14,7 @@ export default {
   tabBar: {
     list: [
       {
-        pagePath: "pages/index/index",
+        pagePath: "pages/home/index",
         text: "首页",
         iconPath: 'assets/home.png',
         selectedIconPath: 'assets/home-active.png',

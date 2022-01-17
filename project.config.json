@@ -12,7 +12,27 @@
     "compileType": "miniprogram",
     "condition": {
         "miniprogram": {
-            "current": -1
+            "current": 1642432498052,
+            "list": [
+                {
+                    "id": 1642429824116,
+                    "name": "activity",
+                    "pathName": "pages/activity/index",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code"
+                },
+                {
+                    "id": 1642432498052,
+                    "name": "home",
+                    "pathName": "pages/home/index",
+                    "query": "",
+                    "scene": "990001",
+                    "launchFrom": "scan",
+                    "location": "qr_code"
+                }
+            ]
         }
     }
 }
