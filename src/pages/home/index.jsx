@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import { View, Text, Image } from '@tarojs/components'
-import { AtProgress,  AtNoticebar } from 'taro-ui'
+// import { AtProgress,  AtNoticebar } from 'taro-ui'
 import './index.less'
 import home2Img from '@/assets/home/home-2.png'
 
@@ -61,7 +61,7 @@ export default class Index extends Component {
         <Image src={yellowImg} className='yellow-img'></Image>
         <Image src={boxImg} className='box-img'></Image>
         
-        <AtProgress percent={50} status='progress' />
+        {/* <AtProgress percent={50} status='progress' /> */}
         <View className='btn-wrap'>
         {
           btns.map(btn => {
@@ -75,9 +75,9 @@ export default class Index extends Component {
         }
         </View>
 
-        <AtNoticebar marquee>
+        {/* <AtNoticebar marquee>
           这是 NoticeBar 通告栏，这是 NoticeBar 通告栏，这是 NoticeBar 通告栏
-        </AtNoticebar>
+        </AtNoticebar> */}
       </View>
     )
   }
